@@ -2172,7 +2172,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   /* Media query for mobile devices */
-  @media (max-width: 1290px) {
+  @media (max-width: 768px) {
     .skill-icon {
       width: 25px; /* Smaller size for mobile */
       height: auto;
