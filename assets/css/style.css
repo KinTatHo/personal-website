@@ -2170,4 +2170,25 @@ textarea.form-input::-webkit-resizer {
     justify-content: center;
     margin-bottom: 20px; /* Spacing below each section */
   }
+
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .skill-icon {
+      width: 30px; /* Smaller size for mobile */
+      height: auto;
+      margin: 3px; /* Reduced spacing between icons on mobile */
+    }
+
+    .skills-section,
+    .languages,
+    .tools {
+      justify-content: space-around; /* Adjust layout for smaller screens */
+    }
+
+    /* Optional: Adjust title size for smaller screens */
+    .skills-title {
+      font-size: 16px; /* Smaller font size for mobile */
+      margin-top: 10px; /* Reduced spacing above the title */
+    }
+  }
 }
